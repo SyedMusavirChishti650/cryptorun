@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "bolda";
+    src: url('../fonts/CHROMATICA-BOLD.OTF');
+}
+@font-face {
+    font-family: "blacka";
+    src: url('../fonts/CHROMATICA-BLACK.OTF');
+}
+@font-face {
+    font-family: "joystix";
+    src: url('../fonts/joystix\ monospace.ttf');
+}
+
+.active{
+    color: rgb(255, 208, 0) !important;
+}
+.navbar{
+    background-color: #604F9F;
+    width: 100%;
+    font-family: blacka;
+    font-size: 12pt;
+}
+.navbar .nav-link{
+    font-weight: bold;
+    color: #fff;
+}
+.p-box{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #3d3274da;
+
+}
+.btn-head{
+    width: 100%;
+    background-color: #FF8201;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: joystix;
+    font-size: 11pt;
+}
+.btn-head:hover{
+    width: 100%;
+    background-color: #FF8201;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 11pt;
+}
+.coin{
+    height: 150px;
+    width: 160px;
+    text-align: center;
+    margin-top: -50px;
+    z-index: 1;
+}
+.carousel-2{
+    z-index: -100;
+}
+
+body{
+  
+    scroll-behavior: smooth;
+     background-image: url(../images/bg.PNG);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #FF8201;; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #604F9F; /* Add a dark-grey background on hover */
+  }
+
+.p-box{
+    color: #fff;
+    font-weight: bold;
+    font-family: bolda;
+    
+}
+.fa-arrow-circle-left, .fa-arrow-circle-right{
+    margin-top: 230px;
+    color: #FF8201;
+    
+}
+
+.img-gameplay{
+    height: 500px;
+    width: 100%;
+}
+.pie-small{
+    display: none;
+}
+.footer{
+    background-color: #604f9fc0;
+    font-family: blacka;
+    font-size: 9pt;
+}
+.footer a{
+    color: #fff;
+}
+h4{
+    font-weight: bolder;
+    font-size: 20pt;
+    color: #fff;
+}
+.text-tok{
+    color: #fff;
+    font-size: 12pt !important;
+    font-family: blacka;
+}
+
+@media only screen and (max-width: 600px) {
+    .img-gameplay{
+        height: 250px;
+        width: 100%;
+    }
+    .unicorn{
+        display: none;
+    }
+    .pie-small{
+        display: block;
+    }
+    .pie-large{
+        display: none;
+    }
+    .col-lg-2 img{
+        width: 180px !important;
+        height: 50px !important;
+        margin: 10px;
+    }
+  
+    .coin{
+        height: 70px;
+        width: 80px;
+        text-align: center;
+        margin-top: -50px;
+        z-index: 1;
+    }
+    .coin-1{
+        height: 150px;
+        width: 160px;
+        margin-top: 20px;
+    }
+    .tok-head{
+        font-weight: 30pt !important;
+        color: #fff;
+    }
+    .headmain{
+        height: 80px !important;
+        width: 200px !important;
+    }
+    .tok-tex{
+        font-family: blacka;
+    }
+  }
+  @media only screen  and (  max-width: 1000px) {
+     .pie-mid{
+         display: none;
+     }
+  }
